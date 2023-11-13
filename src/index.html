@@ -12,7 +12,7 @@
   <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <style>
-    body {background-color: rgb(176, 209, 230);}
+    body {background-color: rgb(234, 239, 189)}
     main {
       margin-top: 60px;
     }
@@ -25,32 +25,30 @@
     form {
       width: 350px;
       margin-bottom: 10px;
-      border: 2px solid rgba(7, 144, 119, 0.842);
+      border: 2px solid rgba(192, 124, 7, 0.842);
       border-radius: 6px;
 
     }
-    
 
     ul {
       margin-bottom: 0px;
     }
 
     #completedTaskList .content {
-      color: grey;
+      color:  rgba(192, 124, 7, 0.842);
       text-decoration: line-through;
     }
   </style>
 </head>
 <!--https://www.pngitem.com/pimgs/m/509-5099434_todo-app-logo-transparent-hd-png-download.png-->
 <body >
-  <nav class="navbar navbar-dark fixed-top bg-info flex-md-nowrap p-0 shadow">
-    <img src="https://www.pngitem.com/pimgs/m/509-5099434_todo-app-logo-transparent-hd-png-download.png" 
-    alt="todolist" width="45" height="45">
-    <a class="navbar-brand col-sm-3 col-md-2 mr-0" style="color: white;"
+  <nav class="navbar navbar-dark fixed-top bg-warning flex-md-nowrap p-0 shadow">
+    <!--center nav bar-->
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" style="color: black;"
       target="_blank">ToDo List App</a>
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap d-none d-sm-none d-sm-block">
-        <small><a class="nav-link" href="#"><span id="account"></span></a></small>
+        <small><a class="nav-link" href="#"><span id="account" style="color:black"></span></a></small>
       </li>
     </ul>
   </nav>
@@ -70,7 +68,7 @@
             <div class="taskTemplate" class="checkbox" style="display: none">
               <label>
                 <input type="checkbox" />
-                <span class="content">Task content goes here...</span>
+                <span class="content">Tasks go here...</span>
               </label>
             </div>
           </ul>

@@ -23,7 +23,7 @@ contract TodoList {
   );
 
   constructor() public {
-    createTask("Task #1");
+    createTask("Creating Tasks");
   }
 
   function createTask(string memory _content) public {
